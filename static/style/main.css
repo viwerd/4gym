@@ -1,0 +1,130 @@
+/* div{
+    border: 1px solid rgb(255, 0, 0);
+} */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 19%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 2px solid #ebbb60;
+}
+
+aside img {
+    width: 77px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+}
+
+aside h3 {
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+aside ul {list-style: none}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .3s ease;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #ebbb60;
+    transform: scale(1.1);
+}
+
+main .features h1{
+    float: left;
+    color: #fff;
+    text-align: center;
+    width: 76%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+main .features .ph{
+    background-color: #ebbb60;
+    width: 800px;
+    margin-top: 65px;
+    margin-left: 350px;
+
+}
+
+main .features .text-index{
+    display: block;
+    color: #fff;
+    text-align: justify;
+    width: 1200px;
+    position: absolute;
+    top: 630px;
+    left: 500px;
+}
+
+main .features .text-index p{
+    display: inline;
+    font-size: 22px;
+}
+
+main .features .text-relevance .sp{
+    float: left;
+    font-size: 19px;
+    color: #fff;
+    width: 400px;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+main .features .for{
+    width: 750px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+main .features .photo{
+    width: 290px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+main .features .karev .photo-text, .isakov .photo-text{
+    display: inline-block;
+    width: 700px;
+    margin-top: 100px;
+    font-size: 30px;
+    color: #fff;
+}
+
+main .features .karev .photo-text span, .isakov .photo-text span{
+    display: inline;
+}
+
+main .features .karev .photo-text p, .isakov .photo-text p{
+    display: inline;
+}
+
+main .features h1{font-size: 50px;}
+main .features p{max-width: 400px;} 
