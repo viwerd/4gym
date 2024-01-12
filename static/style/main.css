@@ -1,7 +1,7 @@
 /* div{
     border: 1px solid rgb(255, 0, 0);
 } */
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,11 +9,11 @@ body {
 aside {
     float: left;
     background: #181818;
-    width: 19%;
-    padding: 2.5%;
+    width: 340px;
+    padding: 62px;
     height: 100vh;
     color: #fff;
-    border-right: 2px solid #ebbb60;
+    border-right: 2px solid #ffc107;
 }
 
 aside img {
@@ -49,52 +49,86 @@ aside a {
 }
 
 aside ul li:hover, aside ul a:hover {
-    color: #ebbb60;
+    color: #ffc107;
     transform: scale(1.1);
 }
 
-main .features h1{
+main .features .head-4gym {
     float: left;
-    color: #fff;
     text-align: center;
-    width: 76%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: -20px;
-}
-
-main .features .ph{
-    background-color: #ebbb60;
-    width: 800px;
-    margin-top: 65px;
-    margin-left: 350px;
-
-}
-
-main .features .text-index{
-    display: block;
+    font-size: 70px;
     color: #fff;
-    text-align: justify;
-    width: 1200px;
-    position: absolute;
-    top: 630px;
-    left: 500px;
+    width: 78%;
+    text-align: center;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    margin-top: 140px;
+    margin-bottom: 70px;
 }
 
-main .features .text-index p{
-    display: inline;
-    font-size: 22px;
+main .features .head-4gym1 {
+    float: left;
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    width: 78%;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+main .features .head-4gym2 {
+    float: left;
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    width: 78%;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    margin-top: 40px;
+}
+
+main .features .span-4gym {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+main .features ul.proj {
+    list-style-type: none;
+    margin-right: 80px;
+    margin-left: 400px;
+}
+
+main .features ul.proj > li {
+    text-indent: 5px;
+    font-size: 34px;
+    color: #fff;
+    text-align: left;
+    padding: 0.6%;
+}
+
+main .features ul.proj > li:before {
+    content: "- ";
+    text-indent: 5px;
+}
+
+main .features .text-relevance .rel {
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 400px;
+    margin-right: 40px;
 }
 
 main .features .text-relevance .sp{
-    float: left;
-    font-size: 19px;
+    text-align: left;
+    font-size: 30px;
     color: #fff;
-    width: 400px;
+    width: 80%;
     text-align: left;
     margin-left: 150px;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 main .features .for{
@@ -104,17 +138,43 @@ main .features .for{
     left: 100px;
 }
 
-main .features .photo{
-    width: 290px;
-    margin-top: 60px;
+main .features .photo1{
+    float: left;
+    border-radius: 50%;
+    width: 350px;
+    margin-top: 50px;
     margin-left: 200px;
+    margin-right: 180px;
 }
 
-main .features .karev .photo-text, .isakov .photo-text{
-    display: inline-block;
-    width: 700px;
+main .features .isakov .photo-text {
+    float: left;
+    width: 500px;
+    padding-top: 80px;
+    padding-left: 2px;
     margin-top: 100px;
     font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+main .features .photo2{
+    float: right;
+    border-radius: 50%;
+    width: 350px;
+    margin-top: 200px;
+    margin-left: 170px;
+    margin-right: 210px;
+}
+
+main .features .karev .photo-text {
+    float: right;
+    width: 800px;
+    padding-top: 80px;
+    margin-top: 100px;
+    padding-left: 300px;
+    font-size: 30px;
+    text-align: center;
     color: #fff;
 }
 
@@ -126,5 +186,107 @@ main .features .karev .photo-text p, .isakov .photo-text p{
     display: inline;
 }
 
-main .features h1{font-size: 50px;}
-main .features p{max-width: 400px;} 
+@media screen and (max-width: 1620px){
+    main .features .head-4gym {
+        font-size: 48px;
+        width: 74%;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
+        margin-top: 140px;
+        margin-bottom: 100px;
+    }
+
+    main .features ul.proj > li {
+        text-indent: 4px;
+        font-size: 28px;
+        padding: 0.6%;
+    }
+
+    main .features .head-4gym1 {
+        font-size: 48px;
+        width: 74%;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
+        margin-top: 80px;
+    }
+
+    main .features .text-relevance .rel {
+        font-size: 26px;
+        margin-left: 380px;
+        margin-right: 36px;
+    }
+
+    main .features .head-4gym2 {
+        font-size: 46px;
+        width: 73%;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
+        margin-top: 40px;
+    }
+
+    main .features .photo1{
+        border-radius: 50%;
+        width: 280px;
+        margin-top: 50px;
+        margin-left: 200px;
+        margin-right: 180px;
+    }
+    
+    main .features .isakov .photo-text {
+        width: 400px;
+        padding-top: 50px;
+        padding-left: 2px;
+        margin-top: 70px;
+        font-size: 24px;
+    }
+    
+    main .features .photo2{
+        border-radius: 50%;
+        width: 280px;
+        margin-top: 150px;
+        margin-left: 120px;
+        margin-right: 190px;
+    }
+    
+    main .features .karev .photo-text {
+        width: 500px;
+        padding-top: 120px;
+        margin-top: 110px;
+        padding-left: 80px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1480px){
+    main .features .photo1{
+        border-radius: 50%;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 200px;
+        margin-right: 180px;
+    }
+    
+    main .features .isakov .photo-text {
+        width: 400px;
+        padding-top: 50px;
+        padding-left: 2px;
+        margin-top: 70px;
+        font-size: 24px;
+    }
+    
+    main .features .photo2{
+        border-radius: 50%;
+        width: 240px;
+        margin-top: 150px;
+        margin-left: 150px;
+        margin-right: 190px;
+    }
+    
+    main .features .karev .photo-text {
+        width: 500px;
+        padding-top: 120px;
+        margin-top: 110px;
+        padding-left: 100px;
+        font-size: 24px;
+    }
+}
